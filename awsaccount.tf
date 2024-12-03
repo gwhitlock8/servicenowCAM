@@ -17,7 +17,6 @@ resource "aws_organizations_account" "account" {
   tags = var.tags
   parent_id = var.parent_id
   close_on_deletion=var.close_delete
-  create_govcloud=var.gov_cloud
 }
 
 resource "aws_budgets_budget" "cost" {
