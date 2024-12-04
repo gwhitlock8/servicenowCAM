@@ -31,7 +31,7 @@ variable "gov_cloud" {
 }
 
 variable "parent_id" {
-  type = number
+  type = string
   description = "(Required) Account Parent Organizational Unit"
 }
 
